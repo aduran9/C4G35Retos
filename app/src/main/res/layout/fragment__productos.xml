@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sucursales">
+    tools:context=".Fragment_Productos">
 
+    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textSucu1"
+            android:id="@+id/textProd1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/dj_rosal"
-            android:text="Sucursales"
-            android:textAlignment="center" />
+            android:background="@color/dj_crema"
+            android:text="Productos"
+            android:textAlignment="center"
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,20 +31,19 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textSucuImag1"
-                        android:layout_width="188dp"
+                        android:id="@+id/textProdImag1"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="Sucursal Principal: Bogota - AV Del Paseo Amarillo 22-109" />
+                        android:text="     Becerro Cuero     " />
 
                     <ImageView
-                        android:id="@+id/imagSucu1"
+                        android:id="@+id/imagProd1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:srcCompat="@tools:sample/avatars" />
-
                 </TableRow>
 
                 <TableRow
@@ -51,17 +51,16 @@
                     android:layout_height="match_parent" >
 
                     <TextView
-                        android:id="@+id/textSucuImag2"
-                        android:layout_width="200dp"
+                        android:id="@+id/textProdImag2"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="Sucursal Sabana: Cajica - Centro Comercial La Fontana L 123" />
+                        android:text="     Plumas Invierno     " />
 
                     <ImageView
-                        android:id="@+id/imagSucu2"
+                        android:id="@+id/imagProd2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:srcCompat="@tools:sample/avatars" />
-
                 </TableRow>
 
                 <TableRow
@@ -69,17 +68,16 @@
                     android:layout_height="match_parent" >
 
                     <TextView
-                        android:id="@+id/textSucuImag3"
-                        android:layout_width="209dp"
+                        android:id="@+id/textProdImag3"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="Sucursal Usme: CLL La libertad, Torreleones 25-115 SUR" />
+                        android:text="     Silicon Plata     " />
 
                     <ImageView
-                        android:id="@+id/imagSucu3"
+                        android:id="@+id/imagProd3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:srcCompat="@tools:sample/avatars" />
-
                 </TableRow>
 
                 <TableRow
@@ -89,4 +87,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

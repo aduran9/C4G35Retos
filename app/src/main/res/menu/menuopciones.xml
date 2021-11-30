@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:icon="@drawable/ic_twotone_favorite_border_24"
+    app:showAsAction="ifRoom"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
         android:id="@+id/productos"
-        android:icon="@android:drawable/sym_def_app_icon"
+        android:icon="@drawable/ic_twotone_productos_24"
+        app:showAsAction="ifRoom"
         android:title="Productos" />
     <item
         android:id="@+id/servicios"
-        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:icon="@drawable/ic_twotone_services_24"
+        app:showAsAction="ifRoom"
         android:title="Servicios" />
     <item
         android:id="@+id/sucursales"
-        android:icon="@android:drawable/ic_menu_myplaces"
+        android:icon="@drawable/ic_twotone_sucursales_24"
+        app:showAsAction="ifRoom"
         android:title="Sucursales" />
 </menu>

@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3671875" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto1/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto1/app/src/main/res/layout/activity_productos.xml" value="0.33" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto1/app/src/main/res/layout/activity_servicios.xml" value="0.25" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto1/app/src/main/res/layout/activity_sucursales.xml" value="0.1621376811594203" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto1/app/src/main/res/menu/menuopciones.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/drawable/ic_twotone_favorite_24.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/drawable/ic_twotone_favorite_border_24.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__favoritos.xml" value="0.2" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__inicio.xml" value="0.15678824721377912" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__productos.xml" value="0.15678824721377912" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__servicios.xml" value="0.15678824721377912" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__sucursales.xml" value="0.15678824721377912" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/menu/menuopciones.xml" value="0.25" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2611111111111111" />
       </map>
     </option>
   </component>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.Fragment_Sucursales">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textSucu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dj_rosal"
+            android:text="SUCURSALES"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textSucuImag1"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="Sucursal Principal: Bogota - AV Del Paseo Amarillo 22-109" />
+
+                    <ImageView
+                        android:id="@+id/imagSucu1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textSucuImag2"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="Sucursal Sabana: Cajica - Centro Comercial La Fontana L 123" />
+
+                    <ImageView
+                        android:id="@+id/imagSucu2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textSucuImag3"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="Sucursal Usme: CLL La libertad, Torreleones 25-115 SUR" />
+
+                    <ImageView
+                        android:id="@+id/imagSucu3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

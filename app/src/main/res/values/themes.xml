@@ -1,13 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Reto1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Reto3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/dj_crema</item>
-        <item name="colorPrimaryVariant">@color/dj_rosal</item>
+        <item name="colorPrimaryVariant">@color/dj_acuam</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/dj_green</item>
-        <item name="colorSecondaryVariant">@color/dj_purpl</item>
+        <item name="colorSecondary">@color/dj_purpl</item>
+        <item name="colorSecondaryVariant">@color/dj_rosal</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>

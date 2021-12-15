@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/rafaga1" android:duration="50" />
+    <item android:drawable="@drawable/rafaga2" android:duration="50" />
+    <item android:drawable="@drawable/rafaga3" android:duration="50" />
+    <item android:drawable="@drawable/rafaga4" android:duration="50" />
+    <item android:drawable="@drawable/rafaga5" android:duration="50" />
+    <item android:drawable="@drawable/rafaga6" android:duration="50" />
+    <item android:drawable="@drawable/rafaga7" android:duration="50" />
+    <item android:drawable="@drawable/rafaga8" android:duration="50" />
+</animation-list>

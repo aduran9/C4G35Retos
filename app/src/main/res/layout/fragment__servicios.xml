@@ -3,7 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment_Servicios">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context=".Vista.Fragment_Servicios">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -12,78 +17,17 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textServ1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:background="@color/dj_green"
-            android:text="Servicios"
+            android:text="SERVICIOS"
             android:textAlignment="center"
             android:textSize="25sp" />
 
-        <LinearLayout
+        <ListView
+            android:id="@+id/lista_servicios"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <ImageView
-                        android:id="@+id/imagServ1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
-
-                    <TextView
-                        android:id="@+id/textServImag1"
-                        android:layout_width="183dp"
-                        android:layout_height="match_parent"
-                        android:text="Confección a la medida: Toma de medidas en el lugar que lo indique, avanzadi sistema de talle" />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <ImageView
-                        android:id="@+id/imagServ2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
-
-                    <TextView
-                        android:id="@+id/textServImag2"
-                        android:layout_width="183dp"
-                        android:layout_height="match_parent"
-                        android:text="Arreglo: Ajuste, entalla, recogidas de acuerdo a las indicaciones del cliente, reparación de vestidos" />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <ImageView
-                        android:id="@+id/imagServ3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
-
-                    <TextView
-                        android:id="@+id/textServImag3"
-                        android:layout_width="183dp"
-                        android:layout_height="match_parent"
-                        android:text="Recolección ensitio y disposición final de la ropa usada. Manejo completo de ciclo de uso de la ropa de vestir." />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </TableLayout>
-        </LinearLayout>
+            android:layout_height="match_parent" />
     </LinearLayout>
 </FrameLayout>

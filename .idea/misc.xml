@@ -3,16 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/drawable/ic_twotone_favorite_24.xml" value="0.2611111111111111" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/drawable/ic_twotone_favorite_border_24.xml" value="0.2611111111111111" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__favoritos.xml" value="0.2" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__inicio.xml" value="0.15678824721377912" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__productos.xml" value="0.15678824721377912" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__servicios.xml" value="0.15678824721377912" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/layout/fragment__sucursales.xml" value="0.15678824721377912" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/menu/menuopciones.xml" value="0.25" />
-        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/drawable/ic_twotone_sucursales_24.xml" value="0.28055555555555556" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/activity_main.xml" value="0.15121580547112462" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/activity_main2.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/fragment__favoritos.xml" value="0.1580547112462006" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/fragment__inicio.xml" value="0.1580547112462006" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/fragment__productos.xml" value="0.1580547112462006" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/fragment__servicios.xml" value="0.1580547112462006" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/fragment__sucursales.xml" value="0.1580547112462006" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/item.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/layout/splash.xml" value="0.33" />
+        <entry key="..\:/Users/adura/OneDrive - Universidad de los Andes/Documentos/Coding/Projects_Android/Reto3/app/src/main/res/menu/menuopciones.xml" value="0.16944444444444445" />
       </map>
     </option>
   </component>

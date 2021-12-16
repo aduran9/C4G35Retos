@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
@@ -35,4 +36,13 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    /* -----Librerías para cargue de mapas GoogleMaps-----*/
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+
+    /* -----Librerías para cargue de mapas OpenStreetView-----*/
+    implementation 'org.osmdroid:osmdroid-android:6.1.11'
+
+    /* -----LIBRERIA PARA MANEJO DE PETICIONES CRUD-----*/
+    implementation 'com.android.volley:volley:1.1.1'
 }

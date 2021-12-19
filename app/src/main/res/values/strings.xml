@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Die 3 Jacken</string>
+    <string name="app_name">Die 2 Jacken</string>
+    <!-- TODO: Remove or change this placeholder text
+    <string name="hello_blank_fragment">Hello blank fragment</string> -->
 </resources>

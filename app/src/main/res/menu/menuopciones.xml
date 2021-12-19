@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:icon="@drawable/dj_icono"
-    app:showAsAction="ifRoom">
-
-    <item
-        android:id="@+id/favoritos"
-        android:icon="@drawable/ic_twotone_favorite_border_24"
-        android:title="Favoritos"
-        app:showAsAction="ifRoom" />
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/ic_twotone_favorite_border_24"
+    app:showAsAction="ifRoom"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
         android:id="@+id/productos"
         android:icon="@drawable/ic_twotone_productos_24"
+        app:showAsAction="ifRoom"
         android:title="Productos" />
-
     <item
         android:id="@+id/servicios"
         android:icon="@drawable/ic_twotone_services_24"
+        app:showAsAction="ifRoom"
         android:title="Servicios" />
     <item
         android:id="@+id/sucursales"
         android:icon="@drawable/ic_twotone_sucursales_24"
+        app:showAsAction="ifRoom"
         android:title="Sucursales" />
 </menu>

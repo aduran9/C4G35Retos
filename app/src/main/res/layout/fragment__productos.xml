@@ -3,12 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/white"
-    tools:context=".Vista.Fragment_Productos">
+    tools:context=".Fragment_Productos">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -17,18 +12,79 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/textProd1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:background="@color/dj_crema"
-            android:text="PRODUCTOS"
+            android:text="Productos"
             android:textAlignment="center"
             android:textSize="25sp" />
 
-        <ListView
-            android:id="@+id/lista_productos"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textProdImag1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="     Becerro Cuero     " />
+
+                    <ImageView
+                        android:id="@+id/imagProd1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textProdImag2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="     Plumas Invierno     " />
+
+                    <ImageView
+                        android:id="@+id/imagProd2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textProdImag3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="     Silicon Plata     " />
+
+                    <ImageView
+                        android:id="@+id/imagProd3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </FrameLayout>

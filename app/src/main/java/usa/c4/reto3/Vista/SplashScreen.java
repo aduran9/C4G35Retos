@@ -45,5 +45,12 @@ public class SplashScreen extends AppCompatActivity implements Runnable{
     @Override
     protected void onRestart() {
         super.onRestart();
+        try {
+            Thread.sleep(5000);
+            Intent pasarPantalla = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(pasarPantalla);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

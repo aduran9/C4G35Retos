@@ -29,7 +29,6 @@ public class Fragment_Servicios extends Fragment {
     View v;
     ListView listaServicios;
     Adaptador adaptador;
-    Cursor cursor;
 
     // CONEXION A LA BASE DE DATOS: SQLite
     MotorBaseDatosSQLite conectar;
@@ -56,14 +55,13 @@ public class Fragment_Servicios extends Fragment {
 
         conectar = new MotorBaseDatosSQLite(getContext(),"TiendaProductos", null, 1);
         SQLiteDatabase db_leer = conectar.getReadableDatabase();
-        conectar.onUpgrade(db_leer, 1, 2);
-        cursor = db_leer.rawQuery("SELECT * FROM servicios", null);
+        // conectar.onUpgrade(db_leer, 1, 2);
+        Cursor cursor = db_leer.rawQuery("SELECT * FROM servicios", null);
         Log.v(TAG, "Leyendo Base de Datos");
 
         //Trae elementos de BD a la visualización
         while(cursor.moveToNext()){
             Log.v(TAG, "dentro del while");
-            // listaServicios.add(new Entidad(R.drawable.dj_servicio_1, cursor.getString(0), cursor.getString(1)));
             listaServicios.add(new Entidad(imagen[cursor.getInt(0)], cursor.getString(1), cursor.getString(2)));
             Log.v(TAG, "despues del while");
         }

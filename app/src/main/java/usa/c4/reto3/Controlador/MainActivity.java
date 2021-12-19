@@ -21,6 +21,7 @@ import usa.c4.reto3.Vista.Fragment_Sucursales;
 
 /**
  * @Author Andrés Durán
+ * https://github.com/aduran9/C4G35Retos/tree/Reto3
  * Clase extends AppCompatActivity
  */
 public class MainActivity extends AppCompatActivity {
@@ -37,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //**** Poner Logo en la barra ***//
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_foreground);
+        //**** Poner Logo en la barra***//
 
         subPantalla1 = new Fragment_Productos();
         subPantalla2 = new Fragment_Servicios();
@@ -98,5 +104,4 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     //*****************************************************************************************************************
-
 }

@@ -63,19 +63,18 @@ public class Adaptador extends BaseAdapter{
         TextView descripcion = (TextView) v.findViewById(R.id.descripcion_item);
 
         TextView descripcion2 = (TextView)v.findViewById(R.id.descripcion2_item);
-
-        //-------------------------------------------------------------------
-        conectar = new MotorBaseDatosSQLite(context,"TiendaProductos", null, 1);
-        SQLiteDatabase db_escribir = conectar.getWritableDatabase();
-        conectar.onUpgrade(db_escribir, 1, 2);
         //-------------------------------------------------------------------
 
+        //-------------------------------------------------------------------
         Button boton1 = (Button) v.findViewById(R.id.boton1_item);
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "Guardado en favoritos", Toast.LENGTH_LONG).show();
+                conectar = new MotorBaseDatosSQLite(context,"TiendaProductos", null, 1);
+                SQLiteDatabase db_escribir = conectar.getWritableDatabase();
+                //conectar.onUpgrade(db_escribir, 1, 2);
                 db_escribir.execSQL("INSERT INTO favoritos VALUES (1, '"+datosItem.getTitulo()+"', '"+datosItem.getDescripcion()+"')");
+                Toast.makeText(context, "Guardado en favoritos", Toast.LENGTH_LONG).show();
             }
         });
 

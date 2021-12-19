@@ -26,7 +26,6 @@ public class Fragment_Productos extends Fragment {
     View v;
     ListView listaProductos;
     Adaptador adaptador;
-    Cursor cursor;
 
     // CONEXION A LA BASE DE DATOS: SQLite
     MotorBaseDatosSQLite conectar;
@@ -53,8 +52,8 @@ public class Fragment_Productos extends Fragment {
 
         conectar = new MotorBaseDatosSQLite(getContext(),"TiendaProductos", null, 1);
         SQLiteDatabase db_leer = conectar.getReadableDatabase();
-        conectar.onUpgrade(db_leer, 1, 2);
-        cursor = db_leer.rawQuery("SELECT * FROM productos", null);
+        // conectar.onUpgrade(db_leer, 1, 2);
+        Cursor cursor = db_leer.rawQuery("SELECT * FROM productos", null);
         Log.v(TAG, "Leyendo Base de Datos");
 
         //Trae elementos de BD a la visualización
@@ -73,5 +72,4 @@ public class Fragment_Productos extends Fragment {
         listaItems.add(new Entidad(R.drawable.dj_bomberjack3, "Silicon Plata", "Women Silicon Winter Brand"));
         return listaItems;
     }
-
 }

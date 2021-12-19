@@ -28,7 +28,7 @@ public class Fragment_Sucursales extends Fragment {
     private MapController myMapController;
 
     View v;
-    GeoPoint galerias, fontanar, tibabuye;
+    GeoPoint galerias, fontanar, tibabuye, centrare;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -44,12 +44,13 @@ public class Fragment_Sucursales extends Fragment {
         galerias = new GeoPoint(4.642161, -74.075007);
         fontanar = new GeoPoint(4.885085, -74.034841);
         tibabuye = new GeoPoint(4.756444, -74.114453);
+        centrare = new GeoPoint(4.77025186075926, -74.06770746829463);
 
         myOpenMapView.setBuiltInZoomControls(true);
 
         myMapController = (MapController) myOpenMapView.getController();
-        myMapController.setCenter(galerias);
-        myMapController.setZoom(11);
+        myMapController.setCenter(centrare);
+        myMapController.setZoom(13);
 
         myOpenMapView.setMultiTouchControls(true);
 

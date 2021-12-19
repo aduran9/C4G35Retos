@@ -1,11 +1,11 @@
 package usa.c4.reto4.Vista;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import usa.c4.reto4.Controlador.MainActivity;
 import usa.c4.reto4.R;
@@ -45,5 +45,12 @@ public class SplashScreen extends AppCompatActivity implements Runnable{
     @Override
     protected void onRestart() {
         super.onRestart();
+        try {
+            Thread.sleep(5000);
+            Intent pasarPantalla = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(pasarPantalla);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

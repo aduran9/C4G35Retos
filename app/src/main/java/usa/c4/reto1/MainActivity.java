@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Menú de opciones en la app
      */
+    //------------------------------ Menu de Opciones ------------------------------
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
